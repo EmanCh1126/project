@@ -10,6 +10,12 @@ const webinars =[
     isFeatured: true,
   },
   {
+    title: 'Building Scalable Web Apps with Next.js',
+    description: 'Learn how to build and scale web applications using Next.js.',
+    slug: 'scalable-web-apps-nextjs',
+    isFeatured: true,
+  },
+  {
     title: 'CSS Grid and Flexbox for Responsive Design',
     description: 'Master the art of responsive web design using CSS Grid and Flexbox.',
     slug: 'css-grid-flexbox-responsive-design',
@@ -20,6 +26,12 @@ const webinars =[
     description: 'Gain expertise in building full-stack applications for web and mobile platforms.',
     slug: 'full-stack-app-developer',
     isFeatured: true,
+  },
+  {
+    title: 'Deploying Full-Stack Applications with Docker',
+    description: 'Learn how to containerize and deploy full-stack applications using Docker.',
+    slug: 'fullstack-applications-docker',
+    isFeatured: false,
   },
   {
     title: 'Unlocking the Power of Tailwind CSS',
@@ -39,7 +51,12 @@ const webinars =[
     slug: 'ai-backend-automation',
     isFeatured: false,
   },
-
+  {
+    title: 'AI-Driven Full-Stack Development',
+    description: 'Integrate AI across both frontend and backend to build intelligent full-stack apps.',
+    slug: 'ai-full-stack-development',
+    isFeatured: true,
+  }
   
 ]
 

@@ -1,5 +1,3 @@
-"use client"; 
-
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
@@ -47,7 +45,9 @@ export const HoverEffect = ({
           <Card>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
-          </Card>
+          </Card>"use client"; 
+
+
         </Link>
       ))}
     </div>
